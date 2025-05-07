@@ -1,0 +1,27 @@
+---
+title: "Danny Halovanic | Electronic Portfolio"
+#author: "Danny Halovanic"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook:
+    css: assets/css/style.css
+    config:
+      toc:
+        collapse: subsection
+        smooth_scroll: false
+---
+
+# Home
+
+Welcome to my electronic portfolio!  
+
+I’m **Danny Halovanic**, an up-and-coming undergraduate with expertise in a wide variety of fields in math and computer science. This portfolio showcases my projects, skills, and experience.  
+
+📌 **Navigate through the sections to explore:**  
+- 📊 **Projects**: Analyses, and reports.  
+- 🛠️ **Skills**: Programming, statistical methods, and tools.  
+- 📩 **Contact**: How to reach me.  
+
+Feel free to explore, and thank you for visiting!  

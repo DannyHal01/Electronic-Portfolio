@@ -1,0 +1,13 @@
+# Projects
+
+## Project 1: Comparing Methods for Finding Roots of Polynomials
+
+This report explored and compared the performance of various root-finding techniques—both algebraic and numerical—for polynomials with extreme coefficient magnitudes. The focus was on assessing numerical stability, accuracy, and computational efficiency across methods such as the traditional algebraic formula, low-entropy expressions, as well as numerical methods such as Newton's and Bisection methods.
+
+[View the report here (PDF)](assets/MAT_455_Report.pdf)
+
+## Project 2: Modeling Prediction of Type II Diabetes in a Population
+Using R Markdown and techniques from MAT 325 (Numerical Analysis I), this project modeled the prediction rate of Type II diabetes in the Pima Indian population. Statistical and numerical methods were employed to analyze trends, identify key predictors, and estimate the likelihood of diabetes occurrence based on various health indicators.
+
+[View the project here (PDF)](assets/FinalProject.pdf)
+

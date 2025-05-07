@@ -1,0 +1,12 @@
+book_filename: "my-portfolio"
+chapter_name: ""
+rmd_files:
+  - index.Rmd
+  - 01-about.Rmd
+  - 02-projects.Rmd
+  - 03-skills.Rmd
+  - 04-contact.Rmd
+delete_merged_file: true
+output_dir: "docs"
+clean: [".tex", ".log", ".aux", ".out", ".toc"]
+
