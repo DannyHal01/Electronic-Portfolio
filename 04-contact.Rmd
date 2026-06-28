@@ -1,5 +1,17 @@
-# Contact
+# Contact {#contact}
 
-📧 **Email**: dan.halovanic01@gmail.com  
-🔗 **LinkedIn**: [Joseph Halovanic](https://linkedin.com/in/josephhalovanic)  
-💼 **GitHub**: [DannyHal01](https://github.com/DannyHal01)  
+If you would like to connect, discuss a project, or chat about opportunities in data and IT, feel free to reach out through any of the platforms below. 
+
+---
+
+### Professional Networks {.unlisted .unnumbered}
+
+| Platform | Profile Link |
+|:---|:---|
+| 📧 **Email** | [dan.halovanic01@gmail.com](mailto:dan.halovanic01@gmail.com) |
+| 🔗 **LinkedIn** | [linkedin.com/in/josephhalovanic](https://linkedin.com/in/josephhalovanic) |
+| 💼 **GitHub** | [github.com/DannyHal01](https://github.com/DannyHal01) |
+
+---
+
+> **Note:** For formal inquiries or technical collaboration, email is typically the fastest way to get a response. I look forward to connecting!
