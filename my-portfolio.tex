@@ -1,0 +1,199 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{booktabs}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Danny Halovanic \textbar{} Electronic Portfolio},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Danny Halovanic \textbar{} Electronic Portfolio}
+\author{}
+\date{\vspace{-2.5em}June 28, 2026}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{Home}\label{home}
+
+Welcome to my electronic portfolio!
+
+I'm \textbf{Danny Halovanic}, a recent graduate from \textbf{West Chester University} with a B.S. in \textbf{Computer Science} and \textbf{Applied \& Computational Mathematics}. I am passionate about information technology, technical support, and systems administration.
+
+Currently, I serve as an \textbf{IT Intern at OTC Services}, where I provide Tier 1/2 technical support, troubleshoot hardware and software issues, manage user accounts in Active Directory, and assist with system deployments and network troubleshooting.
+
+My academic background, combined with hands-on IT experience, has strengthened my problem-solving abilities and technical expertise across Windows, macOS, Linux, networking, and scripting environments.
+
+This portfolio highlights my technical projects, professional experience, and the skills I have developed throughout my academic and professional journey.
+
+\section{What You'll Find Here}\label{what-youll-find-here}
+
+📌 \textbf{Projects}
+- Programming projects, data analyses, and technical reports.
+- Examples demonstrating problem-solving, automation, and software development skills.
+
+📌 \textbf{Technical Skills}
+- Operating Systems: Windows, macOS, Linux, ChromeOS
+- Programming \& Scripting: Python, Bash, SQL, PowerShell
+- IT Tools: Active Directory, Office 365, Git, Remote Desktop, Atera
+- Networking: TCP/IP, DNS, DHCP, Wi-Fi configuration
+
+📌 \textbf{Professional Experience}
+- IT support and systems administration experience.
+- Customer service, documentation, and technical training experience.
+
+📌 \textbf{Awards \& Achievements}
+- Dean's List (7 semesters)
+- Recipient of departmental scholarships recognizing academic excellence.
+
+📌 \textbf{Contact}
+- Information on how to connect with me professionally.
+
+Thank you for visiting my portfolio, and I invite you to explore my work and experiences.
+
+\chapter{About Me}\label{about-me}
+
+Hi, I'm Danny Halovanic, a graduating senior at West Chester University pursuing a double major in Computer Science and Applied and Computational Mathematics.
+
+\section{My Skills}\label{my-skills}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Data Analysis}: Cleaning, transformation, and visualization (R, Python, Tableau)
+\item
+  \textbf{Statistical Modeling}: Regression analysis, hypothesis testing
+\item
+  \textbf{Programming}: R, Python, SQL, Java
+\end{itemize}
+
+\pandocbounded{\includegraphics[keepaspectratio,alt={My photo}]{my-portfolio_files/images/profile.jpg}}
+
+\chapter{Projects}\label{projects}
+
+\section{Project 1: Comparing Methods for Finding Roots of Polynomials}\label{project-1-comparing-methods-for-finding-roots-of-polynomials}
+
+This report explored and compared the performance of various root-finding techniques---both algebraic and numerical---for polynomials with extreme coefficient magnitudes. The focus was on assessing numerical stability, accuracy, and computational efficiency across methods such as the traditional algebraic formula, low-entropy expressions, as well as numerical methods such as Newton's and Bisection methods.
+
+\href{assets/MAT_455_Report.pdf}{View the report here (PDF)}
+
+\section{Project 2: Modeling Prediction of Type II Diabetes in a Population}\label{project-2-modeling-prediction-of-type-ii-diabetes-in-a-population}
+
+Using R Markdown and techniques from MAT 325 (Numerical Analysis I), this project modeled the prediction rate of Type II diabetes in the Pima Indian population. Statistical and numerical methods were employed to analyze trends, identify key predictors, and estimate the likelihood of diabetes occurrence based on various health indicators.
+
+\href{assets/FinalProject.pdf}{View the project here (PDF)}
+
+\chapter{Skills}\label{skills}
+
+\section{Technical Skills}\label{technical-skills}
+
+\begin{itemize}
+\tightlist
+\item
+  R (ggplot2, dplyr, shiny)
+\item
+  Python (numpy)
+\item
+  SQL
+\item
+  Java
+\item
+  HTML/CSS
+\item
+  LaTeX
+\end{itemize}
+
+\section{Other Skills}\label{other-skills}
+
+\begin{itemize}
+\tightlist
+\item
+  Proficiency in Spanish
+\item
+  Time Management
+\item
+  Problem Solving
+\item
+  Communication
+\item
+  Attention to Detail
+\end{itemize}
+
+\chapter{Contact}\label{contact}
+
+📧 \textbf{Email}: \href{mailto:dan.halovanic01@gmail.com}{\nolinkurl{dan.halovanic01@gmail.com}}\\
+🔗 \textbf{LinkedIn}: \href{https://linkedin.com/in/josephhalovanic}{Joseph Halovanic}\\
+💼 \textbf{GitHub}: \href{https://github.com/DannyHal01}{DannyHal01}
+
+\end{document}
