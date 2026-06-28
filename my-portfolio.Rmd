@@ -52,19 +52,37 @@ Thank you for visiting my portfolio, and I invite you to explore my work and exp
 
 <!--chapter:end:index.Rmd-->
 
-# Projects
+# Projects {#projects}
 
-## Project 1: Comparing Methods for Finding Roots of Polynomials
+A showcase of technical projects demonstrating advanced computational problem-solving, data modeling, and automated script execution.
 
-This report explored and compared the performance of various root-finding techniques—both algebraic and numerical—for polynomials with extreme coefficient magnitudes. The focus was on assessing numerical stability, accuracy, and computational efficiency across methods such as the traditional algebraic formula, low-entropy expressions, as well as numerical methods such as Newton's and Bisection methods.
+---
 
-[View the report here (PDF)](assets/MAT_455_Report.pdf)
+## 🛠️ Automated Numerical Analysis & Algorithm Modeling {.unnumbered}
 
-## Project 2: Modeling Prediction of Type II Diabetes in a Population
-Using R Markdown and techniques from MAT 325 (Numerical Analysis I), this project modeled the prediction rate of Type II diabetes in the Pima Indian population. Statistical and numerical methods were employed to analyze trends, identify key predictors, and estimate the likelihood of diabetes occurrence based on various health indicators.
+**Project Focus:** Assessing computational efficiency, numerical stability, and algorithmic error handling under extreme constraints.
 
-[View the project here (PDF)](assets/FinalProject.pdf)
+* **Core Methodology:** Evaluated algebraic formulas against iterative numerical methods—specifically *Newton’s Method* and *Bisection Methods*—to isolate performance bottlenecks in high-magnitude processing environments.
+* **Technical Application:** Engineered structured comparisons measuring convergence rates, precision decay, and execution speeds across contrasting operational frameworks.
+* **Key Deliverable:** Documented engineering insights regarding memory stability and deterministic logic constraints under high coefficient strain.
 
+👉 [**View the Comprehensive Engineering Report (PDF)**](assets/MAT_455_Report.pdf)
+
+---
+
+## 📊 Predictive Population Modeling & Statistical Scripting {.unnumbered}
+
+**Project Focus:** Utilizing automated statistical computation to ingest multi-variable health indicators, map data trends, and isolate high-probability predictive variables.
+
+* **Core Methodology:** Developed comprehensive data processing scripts using **R Markdown** to run predictive logic on complex demographic data models.
+* **Technical Application:** Applied rigorous statistical filtering and numerical logic frameworks to map multi-tiered dependencies and structural trends within raw datasets.
+* **Key Deliverable:** Formulated a deployment-ready, fully reproducible modeling script that cleanly structures raw inputs into transparent, data-driven probability outputs.
+
+👉 [**View the Statistical Modeling Project (PDF)**](assets/FinalProject.pdf)
+
+---
+
+> **Technical Stack Showcase:** These analytical frameworks leverage programmatic script execution, structured variable scaling, and precise diagnostic reporting—the foundational skills required for system automation, network logging analysis, and complex IT troubleshooting workflows.
 
 <!--chapter:end:02-projects.Rmd-->
 
