@@ -1,16 +1,28 @@
-# Skills
+# Skills {#skills}
 
-## Technical Skills
-- R (ggplot2, dplyr, shiny)
-- Python (numpy)
-- SQL
-- Java
-- HTML/CSS
-- LaTeX
+A comprehensive breakdown of my technical competencies, core IT tools, and bilingual communication capabilities.
 
-## Other Skills
-- Proficiency in Spanish
-- Time Management
-- Problem Solving
-- Communication
-- Attention to Detail
+---
+
+## Technical Core Competencies {.unnumbered}
+
+| Category | Skills & Tools |
+|:---|:---|
+| **Systems & IT Tools** | Windows 10/11, macOS, ChromeOS, Linux, Office 365, Active Directory, Ticketing Systems (Atera), Remote Desktop, Git |
+| **Hardware & Networking** | PC assembly, peripheral setup, basic TCP/IP, DNS, DHCP, Wi-Fi configuration |
+| **Scripting & Automation** | Python, PowerShell (basic), Bash, SQL |
+
+---
+
+## Professional & Soft Skills {.unnumbered}
+
+| Skill | Practical Application |
+|:---|:---|
+| **Troubleshooting & Diagnostic** | Hardware/software fault isolation, network connectivity, VPN, and printer mapping. |
+| **Documentation & Training** | Creating internal IT knowledge base articles and conducting technical training for diverse learning styles. |
+| **Bilingual Communication** | Native English with Conversational Fluency in Spanish, including real-world experience assisting Spanish-speaking clients. |
+| **Customer Service** | Tier 1/2 user support, active listening, and efficient conflict de-escalation. |
+
+---
+
+> **Academic Foundation:** Backed by a B.S. in Computer Science & Applied and Computational Mathematics (3.89 GPA) with advanced academic coursework in *Operating Systems*, *Networking Fundamentals*, *Database Management*, and *Object-Oriented Programming*.
